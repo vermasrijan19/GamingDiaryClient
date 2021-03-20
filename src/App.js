@@ -1,10 +1,13 @@
 import Header from "./Components/Header";
-import Logo from "./Components/Logo";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbars from "./Components/Navbars"
 function App() {
   return (
     <div className="App">
-        <Logo/>
+
         <Header/>
+
+        <Navbars/>
     </div>
   );
 }

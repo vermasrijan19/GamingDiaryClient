@@ -113,8 +113,22 @@ footer {
   text-align: center;
 }
 h2{
+  /*float: left;*/
   font-size: 40px;
   font-weight: 900;
 }
+.header{
 
+  /*float: left;*/
+}
+img{
 
+}
+.head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 2px solid white;
+
+}
