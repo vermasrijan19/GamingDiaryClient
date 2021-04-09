@@ -112,23 +112,135 @@ footer {
   margin-top: 30px;
   text-align: center;
 }
-h2{
+a h2{
+  text-decoration: none;
+  color: aqua;
   /*float: left;*/
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 900;
+}
+a:hover{
+  text-decoration: none !important;
 }
 .header{
 
   /*float: left;*/
 }
 img{
+float:left;
 
 }
 .head{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
   border: 2px solid white;
+  padding-right: 2%;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-image: url("pages/Components/images/Head.jpg");
+  background-size: 100%;
+  background-position: center;
 
+}
+.nav-link{
+  padding-right: 50px;
+  font-size: 20px;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.Query_cont{
+  /*float:left;*/
+  margin: 5%;
+  width: 70%;
+  padding: 2%;
+  /*padding-bottom: 2px;*/
+  display: inline-flex;
+  margin-bottom: 0;
+}
+.Description{
+  /*margin-left: 200px;*/
+  background-color: #888888;
+
+  padding: 2% 2% 0;
+  width: 100%;
+  /*margin-left: 150px;*/
+
+}
+.profile{
+  width: 125px;
+  height: 125px;
+}
+figure{
+  margin:0 !important;
+}
+.img-fluid {
+  width: 100%!important;
+  height: auto;
+}
+@media all and (min-width: 480px) {
+  .Login {
+    padding: 60px 0;
+  }
+
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+}
+.Profile{
+
+  border: white 2px solid;
+  /*margin: 5%;*/
+  color: white !important;
+  padding: 5%;
+}
+.figure-caption {
+  background-color: #888888;
+
+  /*font-size: 90%;*/
+  color: white!important;
+}
+.page{
+  /*border: white 2px solid;*/
+  /*margin: 5%;*/
+  /*color: white !important;*/
+  padding: 5%;
+}.nopage{
+  /*border: white 2px solid;*/
+  /*margin: 5%;*/
+  /*color: white !important;*/
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+/*.table{*/
+/*  color: white !important;*/
+/*}*/
+td{
+  width: 50%;
+}
+
+.figure-img{
+  margin-bottom: 0 !important;
+}
+
+.form-control {
+  margin: 0 0 !important;
+}
+.game{
+  width: 25px;
+}
+#combo-box-demo
+{
+  background: white;
+}
+.MuiInputBase-root.MuiOutlinedInput-root.MuiAutocomplete-inputRoot.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiInputBase-adornedEnd.MuiOutlinedInput-adornedEnd
+{
+ background: white;
+}
+.but{
+  margin: 0 auto;
+  max-width: 320px;
+  padding: 60px 0;
+  /*max-width: 100px;*/
 }
