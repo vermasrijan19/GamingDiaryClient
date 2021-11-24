@@ -1,4 +1,4 @@
-#Client for Gaming Diary website
+# Client for gaming diary website
 
 # Getting Started with Create React App
 
